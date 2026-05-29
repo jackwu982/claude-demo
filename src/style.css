@@ -24,6 +24,11 @@
     background: rgba(0, 244, 255, 0.3);
     color: #fff;
   }
+
+  ::-webkit-calendar-picker-indicator {
+    filter: invert(0.85);
+    cursor: pointer;
+  }
 }
 
 @layer components {
